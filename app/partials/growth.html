@@ -1,0 +1,30 @@
+<!--<form ng-submit="addEvent()">
+	<input type="text" ng-model="newEvent.cheif">
+	<input type="text" ng-model="newEvent.complaint">
+	<input button type="submit" value="Add">
+</form>-->
+
+<div> {{weight}} pounds</div>
+<br/>
+<div ui-slider="{'min':1,'max':20}" ng-model="weight"></div>
+<br />
+
+<div> {{height}} inches</div>
+<br/>
+<div ui-slider="{'min':40,'max':100}" ng-model="height"></div>
+<p>
+            <button ng-click='change()'>Update</button>
+</p>
+       <div> <chart ng-model='boysheight'></chart></div>
+       <br />
+       <br />
+       <br />
+       <br />
+       <br />
+       <br />
+       <br />
+       <br />
+       <br />
+       <br />
+       <br />
+     <div><chart ng-model='boysweight'></chart></div>
